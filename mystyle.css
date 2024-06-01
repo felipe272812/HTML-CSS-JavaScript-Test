@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: white;
+    background: rgb(66, 63, 63);
+    margin: 0;
+    font-family: Arial bold, sans-serif;
+  }
+  
+  p {
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+  h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: solid;
+    }  
+    .myimg {
+    width: 50px;
+    height: 50px;
+    
+  }
+  #img_circular {
+    border-radius: 200px;
+    border-color: white;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkblue;
+    overflow-x: hidden;
+  }
+
+   /* Side navigation links */
+   .sidenav a {
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    font-family: Arial bold, sans-serif;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    text-decoration: underline;
+    font-family: Arial bold, sans-serif;
+    background-color: gray;
+    color: white;
+  }
+  
+    /* Style the content */
+    .content {
+    margin-left: 120px;
+    padding-left: 20px;
+  }
+  
+    .corpo {
+    width:200px;
+    min-height:50px;
+    color: white;
+    background-color:red;
+  }
+
+.button_slide {
+    color: yellow;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 gray;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #D80286;
+  }
+  
+  .slide_right_blue:hover {
+    box-shadow: inset 400px 0 0 0 blue;
+  }
+  .slide_right_green:hover {
+    box-shadow: inset 400px 0 0 0 green;
+  }
+  .slide_right_red:hover {
+    box-shadow: inset 400px 0 0 0 red;
+  }
+  
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+  }
+  
+  .slide_diagonal:hover {
+    box-shadow: inset 400px 50px 0 0 #D80286;
+  }
+  
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+  
